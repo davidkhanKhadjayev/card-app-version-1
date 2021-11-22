@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.block {
+  background-color:rgb(171, 198, 223);
+  height: 100vh;
+}
+form {
+  padding: 100px 15px 15px 15px;
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid rgb(207, 201, 201);
+  border-radius: 15px;
+  position: relative;
+  background-color:#fff;
+  top: 106px;
+  -webkit-box-shadow: -4px 37px 54px 15px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: -4px 37px 54px 15px rgba(34, 60, 80, 0.2);
+  box-shadow: -4px 37px 54px 15px rgba(34, 60, 80, 0.2);
+
+}
+.card {
+  position: absolute;
+  top:-100px;
+  left: 0;
+  right: 0;
+  
+}
+.cardNumber,
+.cardName,
+.btn {
+  padding: 8px;
+  text-align: center;
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid rgb(207, 201, 201);
+  border-radius: 5px;
+}
+.cardCvv,
+.cardDate {
+   padding: 8px;
+   margin: 10px ;
+   text-align: center;
+   border-radius: 5px;
+    border: 1px solid rgb(207, 201, 201);
+    width: 51%;
+    background-color:#fff;
+
+}
+.btn {
+  background-color: rgb(54, 120, 243);
+  color: #fff;
+  border: 1px solid  rgb(54, 120, 243);
+  transition: 0.3s all linear;
+}
+.btn:hover {
+  background-color:transparent;
+  color:rgb(54, 120, 243);
+}
+ .labels{
+   display: flex;
+   justify-content: space-between;
+   max-width: 343px;
+   margin: 0 auto;
+ }
+
+.date {
+  display: flex;
+
+}
+@media screen and (max-width:760px) {
+    form {
+      padding: 80px 15px 10px 15px;
+      border-radius:  0;
+      border:0;
+    }
+}
+.m{
+  display: flex;
+}
